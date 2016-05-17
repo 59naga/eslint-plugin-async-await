@@ -8,9 +8,6 @@ Eslint Plugin Async/Await
   <a href="https://travis-ci.org/59naga/eslint-plugin-async-await">
     <img src="http://img.shields.io/travis/59naga/eslint-plugin-async-await.svg?style=flat-square">
   </a>
-  <a href="https://ci.appveyor.com/project/59naga/eslint-plugin-async-await">
-    <img src="https://img.shields.io/appveyor/ci/59naga/eslint-plugin-async-await.svg?style=flat-square">
-  </a>
   <a href="https://codeclimate.com/github/59naga/eslint-plugin-async-await/coverage">
     <img src="https://img.shields.io/codeclimate/github/59naga/eslint-plugin-async-await.svg?style=flat-square">
   </a>
