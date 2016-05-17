@@ -1,0 +1,53 @@
+{
+  "name": "eslint-plugin-async-await",
+  "main": "lib",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "abby test --watch",
+    "test": "mocha",
+    "lint": "eslint src test",
+    "cover": "abby cover:*",
+    "cover:test": "nyc --reporter=lcov --reporter=text mocha",
+    "cover:report": "npm-if TRAVIS \"codeclimate-test-reporter < coverage/lcov.info\"",
+    "build": "abby \"babel src --out-dir lib --source-maps\" --env",
+    "postversion": "git push --follow-tags && conventional-github-releaser -p angular -r 0"
+  },
+  "abigail": {
+    "plugins": {
+      "watch": false,
+      "launch": "force",
+      "parse": {
+        "serial": true,
+        "raw": true
+      }
+    }
+  },
+  "devDependencies": {
+    "abigail": "^1.6.1",
+    "babel-cli": "^6.6.5",
+    "babel-eslint": "^6.0.2",
+    "babel-plugin-add-module-exports": "^0.2.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-register": "^6.7.2",
+    "chokidar": "^1.4.3",
+    "codeclimate-test-reporter": "^0.3.1",
+    "conventional-github-releaser": "^1.1.2",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb-base": "^3.0.0",
+    "eslint-plugin-import": "^1.5.0",
+    "mocha": "^2.4.5",
+    "npm-statement": "^0.0.0",
+    "nyc": "^6.1.1",
+    "power-assert": "^1.3.1"
+  },
+  "keywords": [
+    "babel",
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "babel-eslint"
+  ]
+}
