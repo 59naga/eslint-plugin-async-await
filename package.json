@@ -1,5 +1,7 @@
 {
   "name": "eslint-plugin-async-await",
+  "version": "0.0.0",
+  "description": "enforces spacing after async/await plugin",
   "main": "lib",
   "files": [
     "lib"
@@ -49,5 +51,15 @@
     "eslintplugin",
     "eslint-plugin",
     "babel-eslint"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/59naga/eslint-plugin-async-await.git"
+  },
+  "author": "59naga <i59naga@icloud.com> (http://berabou.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/59naga/eslint-plugin-async-await/issues"
+  },
+  "homepage": "https://github.com/59naga/eslint-plugin-async-await#readme"
 }

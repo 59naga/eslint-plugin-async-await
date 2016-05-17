@@ -15,7 +15,7 @@ branches:
 env:
   global:
     # CODECLIMATE_REPO_TOKEN
-    - secure:
+    - secure: dgmubuf9H0VjHmtOcHajfo/nUvdRABEXyX7SR3qoH8MS+vxeOpZsMJiGW16Cs+vPiJixfIctdJJBCE/+Ay1EKSzzN6kcDl+9hed24hgRz8NsQFcSz1ouMiu9TTP+vAA/89BKwnbr4VNsmKlhl0Y184Fy4Vy56MM1sAmNBLEQuawcABEqHuWv1L21+SawmAOS6XV0xy6tDouBI1mz9lGEUP1SGcu0fB87vNmm38JF91nepuh9okFsSjnJNCP3higf9jBQ8xv7KQMWXT8n55S9L2DF47rtxSio4dI7NyiQvvt6XmqGC+nFDk3MUwKcdR2O9eYEvVBPEtZUwGHDHf4+xQvdTobLBd+WIJ2KG5JYtv0/O5OusyLd6WriYfRnvFQWFSrqXnOCaHaIvkMBvDpHbYptTV9RE8/S/vvhW7HJxkPBxZas2NzlQEgR7Cs8UTTJYpTy5Vd++BWMBPz4ZE5ArBdop7PMtNjefYEydFnus+PPthhijjbJPJ4OI+xRQSjLaEpo+27v/gJbLViDAl8wwXELa5/o26c1aeftsQyEu02SkxD08QLB2/sc1rcV3hjT094RJsHhkqyBgYCTeRyipZVkgXz18fK20NaB7ffdFNNe1zLGjKHyxaDjv4iofcWI0VOnETe/6sB3Ma3zEc3bJC9aBbUodC04wkrMBH+2HLA=
 
 # Language options
 language: node_js
@@ -37,6 +37,6 @@ deploy:
   provider: npm
   email: i59naga@icloud.com
   api_key:
-    secure:
+    secure: xKMLZx980uJ94zYqAq3w2D4bL5j72LUntj1E+U96aOVGH9/PKFUwz30BB+Dn13WjbCCzjpxggIYF+a46Fs2HttAA6vzT10ddMD46gUJbZDCFL7iuRPxLEeLUnpmJfCqKphb4+N0KEZqHP1XMpna+s3WZSlefjQZZbj+WQVtVgIVOdxzJo5wR2ERhdLIVoSRLv4RaMMclEephCRZHx6Op23hh9bBKPKq1Gl0MpTI+RL4VDwZe14U7GDF09RJkff38ZhLAqQe5iMRAm4CT4Ytgq1w0BFPW3H0u2Vc0pW0N1SngvhAKi+sCg/HcHDXk83Zov94Zw6AncYlNTFVUMEZt0XNVGNf0S7obHngPE7pHKMd+3ec6urClr1/XMcxS5WfA+/u66LwflnixdDwN1Qx2H4NcZC2klPQkSSfETfsQ4rtxwlBCZmmd7tQRvHBWcx7uz86cXxp4szyr34YEpNRhq9sziYTVhxIfzAuhe++eYVLmxtcFn8opBz2YX3rSLjMSgOsa70RY6S25qQwZF9Cmte0bsIrLtT90M1NqXwdRUDloCE2earELoC9qFibAdPfgHoWEeDhYaWrbdiVGmlqCWJKY4UouSOk6TOrjqo6CLQyH0aOXh4wB/3CWvGs0M7os/z7qzyuu2s9p20/xKAe0ECkEEaeuuCAGeB83Rt5WYDk=
   on:
     node: 4

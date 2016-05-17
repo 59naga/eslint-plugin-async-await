@@ -49,6 +49,8 @@ Rules
 * `async-await/space-after-async`: disallow `async()=>{}`, fixing to `async ()=>{}`.
 * `async-await/space-after-await`: disallow `await(foo)`, fixing to `await (foo)`.
 
+> The `--fix` option on the [command line](http://eslint.org/docs/user-guide/command-line-interface#fix) automatically fixes problems reported by this rule.
+
 Development
 ---
 Requirement global
